@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link href=
+"https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet" />
+
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet"
+			href=
+"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+
+		<script type="text/javascript"
+				src=
+"https://code.jquery.com/jquery-2.1.1.min.js">
+	</script>
+
+		<!--Let browser know website is
+			optimized for mobile-->
+		<meta name="viewport"
+			content="width=device-width,
+					initial-scale=1.0" />
+	</head>
+
+	<body>
+		<div class="container">
+		  
+
+			<div class="divider black"></div>
+			<img src="https://www.favoritafruitcompany.com/es/images/logo-nuevo.png" alt="Logo" class="logo">
+			<h3>Usted ya aprobo esta solicitud </h3>
+			<p id="mensaje"></p>
+			<div class="card">
+				<div class="card-image">
+					<img src="geeksforgeeks-6.png"
+						alt="" />
+					<span class="card-title">
+				</span>
+				</div>
+				<div class="card-content">
+					
+<p>Muchas gracias por su tiempo , estamos  muy contento/a de que  haya aprobado  .. Puedes cerrar esta ventana manualmente.. Espero seguir colaborando contigo en el futuro</p>
+
+				</div>
+				<div class="card-action">
+				    <button onclick="mostrarMensaje();">Cerrar ventana</button>
+				
+				</div>
+			</div>
+
+			<div class="divider black"></div>
+
+		
+			<div class="divider black"></div>
+			<div class="divider black"></div>
+			<br />
+			<br />
+			<br />
+			<br />
+		</div>
+		<!-- Compiled and minified JavaScript -->
+		<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js">
+	</script>
+	<script>
+      function mostrarMensaje() {
+        document.getElementById('mensaje').innerHTML = ' Puedes cerrar esta ventana manualmente.';
+        document.querySelector('.card-content').style.display = 'none';
+      }
+    </script>
+	</body>
+</html>
